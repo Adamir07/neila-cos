@@ -351,11 +351,112 @@
   .footer-col p, .footer-col a{ opacity:.75; line-height:1.6; display:block; text-decoration:none; margin-bottom:2px;}
   .footer-bottom{ text-align:center; opacity:.55; font-size:.75rem; border-top:1px solid var(--line); padding-top:16px; }
 
-  @media (max-width:560px){
-    .hero{ padding:40px 5vw 26px; }
-    .method-choice{ flex-direction:column; }
-    .trust-strip div{ border-right:none; border-bottom:1px solid var(--line); }
-    .brand small{ display:none; }
+  /* ================= MOBILE ================= */
+@media (max-width:768px){
+
+  header{
+    padding:12px 16px;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+
+  .brand h1{
+    font-size:1rem;
+  }
+
+  .header-actions{
+    width:100%;
+    justify-content:space-between;
+  }
+
+  .icon-btn{
+    flex:1;
+    justify-content:center;
+    padding:10px;
+    font-size:.75rem;
+  }
+
+  .hero{
+    padding:30px 16px;
+  }
+
+  .hero h2{
+    font-size:2rem;
+    line-height:1.15;
+  }
+
+  .hero p{
+    font-size:.95rem;
+  }
+
+  .hero-cta{
+    flex-direction:column;
+  }
+
+  .hero-cta .btn{
+    width:100%;
+  }
+
+  .section{
+    padding:20px 16px 50px;
+  }
+
+  .controls{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  .search-box,
+  #sortSelect{
+    width:100%;
+  }
+
+  .grid{
+    grid-template-columns:1fr;
+    gap:16px;
+  }
+
+  .card{
+    width:100%;
+  }
+
+  .card-foot{
+    flex-direction:column;
+  }
+
+  .qty-stepper,
+  .add-btn{
+    width:100%;
+  }
+
+  .trust-strip{
+    flex-direction:column;
+  }
+
+  .trust-strip div{
+    border-right:none;
+    border-bottom:1px solid var(--line);
+  }
+
+  .footer-grid{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  .drawer{
+    width:100%;
+  }
+
+  .modal{
+    width:95%;
+    padding:20px;
+  }
+
+  .method-choice,
+  .sub-choice{
+    flex-direction:column;
+  }
+}
   }
 </style>
 </head>
